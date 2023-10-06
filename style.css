@@ -1,0 +1,42 @@
+*{
+	color : #020100;
+}
+
+
+html{
+	background-color: #DDD8C4;
+	font-family:MV Boli ;
+    position: relative;
+    height : 100%;
+    width:100%;
+}
+
+.entete {
+	text-align:center;
+	background:#84B59F;
+	height:14%;
+	/* Petite marge évitant que l'entête soit collée aux bords supérieur, gauche et droite de la page
+	(effet visuel plus agréable) */
+	margin:0.1%;
+}
+
+#footer {
+	position: fixed;
+    left: 0%;
+    bottom: 0;
+    width: 100%;
+	text-align:center;
+	background-color:#A3C9A8;
+	height:7%;
+	margin-top :1%;
+}
+
+.entete img{
+    width: 100px;
+    height: 75px;
+	
+}
+
+form{
+	text-align: center;
+}
